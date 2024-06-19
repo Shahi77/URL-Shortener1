@@ -1,6 +1,7 @@
 import express from "express";
 import cors from "cors";
 import cookieParser from "cookie-parser";
+import v1 from "./routes/version1.routes.js";
 const app = express();
 
 app.use(
@@ -16,11 +17,10 @@ app.use(cookieParser());
 
 app.get("/", (req, res) => {
   res.send(
-    "<h1>Welcome to URL-Shortener API</h1><br><h2>Visit <a href='https://shahi77.github.io/URL-Shortener/' target='_blank'>https://shahi77.github.io/URL-Shortener/</a> to get more info on API calls available</h2>"
+    "<h1>Welcome to URL-Shortener API</h1><br><h2>Visit <a href='https://shahi77.github.io/URL-Shortener1/' target='_blank'>https://shahi77.github.io/URL-Shortener1/</a> to get more info on API calls available</h2>"
   );
 });
-// import ROUTERS
-import v1 from "./routes/version1.routes.js";
+
 app.use("/v1", v1);
 
 export default app;
