@@ -38,7 +38,7 @@ Start the server
   npm start
 ```
 
-To test API Endpoints, checkout this [Postman Collection](https://www.postman.com/altimetry-saganist-53324669/workspace/github/collection/17929702-7ff4222d-8e33-4bd3-bd29-4ea32d568e98?action=share&creator=17929702&active-environment=17929702-ba6d93c4-f3a8-4aa5-983e-70fa33d4640d) -->
+To test API Endpoints, checkout this [Postman Collection](https://www.postman.com/shahi77/workspace/github/collection/28412567-c3f4614d-74ea-4de4-a3fb-9dd5e1438f64?action=share&creator=28412567)
 
 ## Environment Variables
 
