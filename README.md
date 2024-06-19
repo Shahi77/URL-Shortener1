@@ -17,25 +17,25 @@ A URL Shortening service that will help you in shortening your url by which you 
 Clone the project
 
 ```bash
-  git clone https://github.com/anuj-thakur-513/URL-Shortener.git
+git clone https://github.com/Shahi77/URL-Shortener1.git
 ```
 
 Go to the project directory
 
 ```bash
-  cd URL-Shortener
+cd URL-Shortener
 ```
 
 Install dependencies
 
 ```bash
-  npm install
+npm install
 ```
 
 Start the server
 
 ```bash
-  npm start
+npm start
 ```
 
 To test API Endpoints, checkout this [Postman Collection](https://www.postman.com/shahi77/workspace/github/collection/28412567-c3f4614d-74ea-4de4-a3fb-9dd5e1438f64?action=share&creator=28412567)
