@@ -1,16 +1,16 @@
 # URL Shortener [Backend]
 
-<!-- ![](/github_assets/short-url-banner.png) -->
+![](/github_assets/short-url-banner.png)
 
 A URL Shortening service that will help you in shortening your url by which you can get a more precised version of your URL at ease.
 
-<!-- ## ER Diagram of DB
+## ER Diagram of DB
 
 ![](/github_assets/er-diagram.jpg)
 
 ## 3RE Architecture
 
-![](/github_assets/3re-architecture.png) -->
+![](/github_assets/3re-architecture.png)
 
 ## Run Locally
 
@@ -38,10 +38,9 @@ Start the server
   npm start
 ```
 
-<!--
 To test API Endpoints, checkout this [Postman Collection](https://www.postman.com/altimetry-saganist-53324669/workspace/github/collection/17929702-7ff4222d-8e33-4bd3-bd29-4ea32d568e98?action=share&creator=17929702&active-environment=17929702-ba6d93c4-f3a8-4aa5-983e-70fa33d4640d) -->
 
-<!-- ## Environment Variables
+## Environment Variables
 
 Change `.env.example` file to `.env` and add the following required variables:
 
@@ -91,7 +90,7 @@ Change `.env.example` file to `.env` and add the following required variables:
         ├── ApiError.js
         ├── ApiResponse.js
         └── asyncHandler.js
-``` -->
+```
 
 ## API Reference
 
