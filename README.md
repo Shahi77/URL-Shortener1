@@ -97,7 +97,7 @@ Change `.env.example` file to `.env` and add the following required variables:
 #### POST signup user
 
 ```http
-  POST /v1/user/signup
+POST /v1/user/signup
 ```
 
 | Parameter  | Type     | Description                                               |
@@ -109,7 +109,7 @@ Change `.env.example` file to `.env` and add the following required variables:
 #### POST login user
 
 ```http
-  POST /v1/user/login
+POST /v1/user/login
 ```
 
 | Parameter  | Type     | Description                                               |
@@ -120,7 +120,7 @@ Change `.env.example` file to `.env` and add the following required variables:
 #### POST logout user
 
 ```http
-  POST /v1/user/logout
+POST /v1/user/logout
 ```
 
 | Parameter   | Type   | Description |
@@ -130,7 +130,7 @@ Change `.env.example` file to `.env` and add the following required variables:
 ### POST update tokens
 
 ```http
-  POST /v1/user/update-tokens
+POST /v1/user/update-tokens
 ```
 
 | Parameter      | Type     | Description                     |
@@ -140,7 +140,7 @@ Change `.env.example` file to `.env` and add the following required variables:
 ### POST create short URL (only logged in users)
 
 ```http
-  POST /v1/url/
+POST /v1/url/
 ```
 
 | Parameter | Type       | Description                                                   |
@@ -151,7 +151,7 @@ Change `.env.example` file to `.env` and add the following required variables:
 ### GET all urls created by current user
 
 ```http
-  GET /v1/url/
+GET /v1/url/
 ```
 
 | Parameter | Type       | Description                                                   |
@@ -161,7 +161,7 @@ Change `.env.example` file to `.env` and add the following required variables:
 ### GET visit created short URL
 
 ```http
-  GET /v1/url/:shortId
+GET /v1/url/:shortId
 ```
 
 | Parameter | Type     | Description                     |
@@ -171,7 +171,7 @@ Change `.env.example` file to `.env` and add the following required variables:
 ### GET analytics of generated short URL (clicks and time at which it was clicked)
 
 ```http
-  GET /v1/url/analytics/:shortId
+GET /v1/url/analytics/:shortId
 ```
 
 | Parameter | Type       | Description                                                   |
